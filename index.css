@@ -1,0 +1,112 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.bj {
+  width: 1366px;
+  background: url(./bj.jpg);
+  height: 768px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.bj .fg {
+  display: none;
+  width: 1366px;
+  height: 768px;
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+
+.bj .fg .k {
+  width: 600px;
+  height: 300px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background: rgba(150, 150, 147, 0.3);
+  border-radius: 5px;
+  text-align: center;
+  line-height: 300px;
+}
+
+.bj .fg .k strong {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 70px;
+  right: 0;
+  width: 150px;
+  text-align: center;
+  line-height: 50px;
+  height: 50px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.bj .fg .k i::after {
+  line-height: 30px;
+  text-align: center;
+  content: "×";
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 20px;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.bj .fg .k span {
+  cursor: pointer;
+  padding: 10px 30px;
+  background: #d59971;
+  color: #fff;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.bj img {
+  display: none;
+}
+
+a {
+  padding: 10px 30px;
+  text-align: center;
+  line-height: 30px;
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  background: #aa344b;
+  color: #fff;
+  width: 70px;
+  height: 30px;
+  display: none;
+}
+
+#canvas {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 50;
+}
